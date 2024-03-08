@@ -115,7 +115,7 @@
           <!-- Deskripsi Profil -->
           <div class="col-md-6 poppinsmedium" style="color: #383b38">
             <p class="teksps" align="justify">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kota Bengkulu adalah ibu kota Provinsi Bengkulu, Indonesia. Kota ini merupakan kota terbesar kedua di pantai barat Pulau Sumatra, setelah Kota Padang. Sebelumnya kawasan ini suatu kesatuan
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kota Bengkulu ialah ibu kota Provinsi Bengkulu, Indonesia. Kota ini merupakan kota terbesar kedua di pantai barat Pulau Sumatra, setelah Kota Padang. Sebelumnya kawasan ini suatu kesatuan
               dengan Kesultanan Palembang Darussalam, Kemudian dikuasai Inggris sebelum diserahkan kepada Belanda. Kota ini juga menjadi tempat pengasingan Bung Karno dalam kurun tahun 1939–1942 pada masa pemerintahan Hindia Belanda dan
               menjadi kota kelahiran salah satu istrinya, Fatmawati.
             </p>
