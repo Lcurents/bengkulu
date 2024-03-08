@@ -1,0 +1,166 @@
+body {
+  background-color: #f8feff;
+}
+
+.hiddencenter {
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+.hiddenleft {
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ffffff, #2638a3);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.warnanav {
+  background-color: rgb(15, 23, 42, 0.5);
+}
+.teksnav {
+  opacity: 100%;
+}
+.judulteks {
+  padding-top: 1rem;
+}
+.hrshadow {
+  border: 0.5;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+.navbutton:active {
+  background-color: #00bfff;
+}
+button#teksnav {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+}
+
+button#teksnav::before {
+  margin-left: auto;
+}
+.img-sponsor {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  filter: brightness(0.8);
+}
+.img-sponsor2 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  filter: brightness(0.8);
+}
+/* Menghilangkan latar belakang putih */
+.tiktok-embed {
+  background: transparent !important;
+}
+
+button#teksnav::after,
+button#teksnav::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #00bfff;
+  display: block;
+  transition: 0.5s;
+}
+
+button#teksnav:hover::after,
+button#teksnav:hover::before {
+  width: 100%;
+}
+.judulteks {
+  padding-top: 1rem;
+}
+.hrshadow {
+  border: 0.5;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+.poppinsmedium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.poppinsbold {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 96px;
+}
+.poppinsboldsejarah {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+}
+.poppinsboldabout {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.teksps {
+  font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+  .judulteks {
+    padding-top: 5rem;
+  }
+  .poppinsbold {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+  }
+  .poppinsboldabout {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+  }
+  .teksps {
+    font-size: 15px;
+  }
+}
